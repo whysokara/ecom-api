@@ -1,0 +1,20 @@
+{
+  "name": "ecom-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whysokara/ecom-api.git"
+  },
+  "keywords": [],
+  "author": "kara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whysokara/ecom-api/issues"
+  },
+  "homepage": "https://github.com/whysokara/ecom-api#readme"
+}
