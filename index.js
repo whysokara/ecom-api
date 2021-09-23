@@ -2,11 +2,12 @@ const express = require("express");
 const app = express();
 
 const mongoose = require("mongoose");
+const dotenv = require("dotenv");
+
+dotenv.config();
 
 mongoose
-  .connect(
-    "mongodb+srv://karaecom:karaecom@clusterecom.xfnkr.mongodb.net/ClusterEcom?retryWrites=true&w=majority"
-  )
+  .connect(process.env.MONGO_URL)
   .then(() => console.log("Connected to mongodb"))
   .catch((err) => {
     console.log(err);
